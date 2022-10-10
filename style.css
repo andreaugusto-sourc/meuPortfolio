@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: #F4F3EE;
+    box-sizing: border-box;
+}
+header{
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5rem 0rem;
+    margin: auto 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+header ul li{
+    padding: 0rem 1rem;
+}
+.container{
+    margin: auto;
+    width: 80%;
+    max-width: 1024px;
+}
+/* CONTEUDO MAIN */
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+}
+.apresentacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.apresentacao div{
+    display: flex;
+    flex-direction: column;
+    
+}
+.apresentacao img{
+    width: 24vw;
+    min-width: 180px;
+}
+.apresentacao .texto{
+    text-align: justify;
+    width: 40vw;
+}
+/* skills */
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills div{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.skills div img{
+    min-width: 60px;
+    margin: 20px;
+    width: 7vw;
+    border-radius: 50%;
+}
+
+
+@media(width <= 650px)  {
+    html{
+        font-size: 90%;
+    }
+    header ul li{
+        padding: 0rem 0.5rem;
+    }
+    .container{
+        width: 90%;
+    }
+
+}
+@media(width <= 480px) {
+    html{
+        font-size: 80%;
+    }
+    .container{
+        width: 95%;
+    }
+    
+
+}
+
+
+@media(width <= 400px) {
+    .wrap{
+        flex-wrap: wrap;
+    }
+    .container{
+        width: 100%;
+    }
+
+    header ul li{
+        padding: 0rem 0.2rem;
+    }
+    .apresentacao {
+        flex-direction: column;
+    }
+    .apresentacao .texto{
+        width: 90%;
+    }
+}
