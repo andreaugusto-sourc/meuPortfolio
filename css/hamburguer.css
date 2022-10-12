@@ -22,7 +22,7 @@
 
 
 
-@media(width <= 430px)  {
+@media(width <= 420px)  {
 
     #navMenu{
         display: block;
@@ -31,19 +31,25 @@
         display: none;
     }
     #hamburguer.active{
-       flex-direction: column;     
+       flex-direction: column;  
     }
 
     #hamburguer.active ul {
+        background-color: #222;
+        width: 100vw;
         display: flex;
+        flex-direction: column;
         position: absolute;
-        top: 10vh;
-        right: 7%;
+        top: 55px;
+        right: 0;
         z-index: 10;
+
 
     }
     #hamburguer.active ul li {
-        padding: 0rem 0.5rem;
+        color: #fff;
+        text-align: center;
+        padding: 2rem 0rem;
     }
 
     #navMenu.active span:nth-child(2) {

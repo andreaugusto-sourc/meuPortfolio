@@ -12,7 +12,7 @@
 }
 
 
-@media(width <= 430px) {
+@media(width <= 460px) {
     html{
         font-size: 80%;
     }
