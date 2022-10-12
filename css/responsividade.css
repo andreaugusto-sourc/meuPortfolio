@@ -1,0 +1,35 @@
+@media(width <= 768px)  {
+    html{
+        font-size: 90%;
+    }
+    header ul li{
+        padding: 0rem 0.5rem;
+    }
+    .container{
+        width: 95%;
+    }
+
+}
+
+
+@media(width <= 430px) {
+    html{
+        font-size: 80%;
+    }
+    .container{
+        width: 100%;
+    }
+    .wrap{
+        flex-wrap: wrap;
+    }
+
+    header ul li{
+        padding: 0rem 0.2rem;
+    }
+    .apresentacao {
+        flex-direction: column;
+    }
+    .apresentacao .texto{
+        width: 90%;
+    }
+}
