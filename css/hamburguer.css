@@ -1,0 +1,69 @@
+#navMenu{
+    display: none;
+}
+#navMenu span{
+    display: block;
+    width: 28px;
+    height: 2px;
+    border-radius: 9999px;
+    background-color: #000000;
+}
+#navMenu span:not(:last-child) {
+    margin-bottom: 7px;
+}
+#navMenu, #navMenu span{
+    transition: all 0.25s ease-in-out;
+}
+/* estilização */
+#navMenu.active{
+    transition-delay: 0.5s;
+    
+}
+
+
+
+@media(width <= 420px)  {
+
+    #navMenu{
+        display: block;
+    }
+    #hamburguer ul{
+        display: none;
+    }
+    #hamburguer.active{
+       flex-direction: column;  
+    }
+
+    #hamburguer.active ul {
+        background-color: #222;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 55px;
+        right: 0;
+        z-index: 10;
+
+
+    }
+    #hamburguer.active ul li {
+        color: #fff;
+        text-align: center;
+        padding: 2rem 0rem;
+    }
+
+    #navMenu.active span:nth-child(2) {
+        opacity: 0;
+
+    }
+
+    #navMenu.active span:nth-child(1) {
+        transform: rotate(-45deg) translate(-7px, 7px);
+        
+    }
+    
+    #navMenu.active span:nth-child(3) {
+        transform: rotate(45deg) translate(-6px, -6px);
+    }
+
+}
