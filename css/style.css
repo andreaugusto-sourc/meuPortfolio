@@ -30,15 +30,15 @@ header nav ul li{
     width: 80%;
     max-width: 1024px;
 }
-/* CONTEUDO MAIN */
 h1{
     width: 100%;
     text-align: center;
     font-size: 3rem;
 }
+/* PARTE DE APRESENTACAO */
 .apresentacao{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     
 }
@@ -48,14 +48,14 @@ h1{
     
 }
 .apresentacao img{
-    width: 24vw;
-    min-width: 180px;
+    width: 20vw;
+    min-width: 200px;
 }
 .apresentacao .texto{
-    text-align: justify;
+    text-align: center;
     width: 40vw;
 }
-/* skills */
+/* PARTE DE EXIBICAO DE SKILLS*/
 .skills{
     display: flex;
     flex-direction: column;
@@ -72,3 +72,5 @@ h1{
     width: 7vw;
     border-radius: 50%;
 }
+/* PARTE DE PROJETOS */
+

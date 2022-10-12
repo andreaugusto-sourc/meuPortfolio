@@ -33,3 +33,9 @@
         width: 90%;
     }
 }
+
+@media(width <= 320px) {
+    html{
+        font-size: 70%;
+    }
+}
