@@ -2,7 +2,7 @@
     html{
         font-size: 90%;
     }
-    header ul li{
+    header ul a{
         padding: 0rem 0.5rem;
     }
     .container{
@@ -11,8 +11,18 @@
 
 }
 
+@media(width <= 600px) {
+    .projetos div img{
+        max-width: 250px;
+        width: 70vw;
+    }
+    .projetos div p{
+        width: 70vw;
+    }
+}
 
-@media(width <= 460px) {
+
+@media(width <= 480px) {
     html{
         font-size: 80%;
     }
@@ -23,7 +33,7 @@
         flex-wrap: wrap;
     }
 
-    header ul li{
+    header ul a{
         padding: 0rem 0.2rem;
     }
     .apresentacao {
@@ -32,6 +42,7 @@
     .apresentacao .texto{
         width: 90%;
     }
+
 }
 
 @media(width <= 320px) {
