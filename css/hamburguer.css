@@ -14,11 +14,6 @@
 #navMenu, #navMenu span{
     transition: all 0.25s ease-in-out;
 }
-/* estilização */
-#navMenu.active{
-    transition-delay: 0.5s;
-    
-}
 /* botao para baixar curriculo */
 .apresentacao button{
     text-transform: uppercase;
@@ -47,7 +42,7 @@
 }
 
 
-@media(width <= 600px)  {
+@media(width <= 500px)  {
 
     #navMenu{
         display: block;

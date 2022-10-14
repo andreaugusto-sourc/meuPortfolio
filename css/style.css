@@ -5,13 +5,11 @@ body{
 }
 header{
     font-family: 'Roboto', sans-serif;
-    padding: 0.5rem 0rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 header nav{
-    margin: auto 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +23,12 @@ header nav  ul{
 header nav ul a{
     text-decoration: none;
     color: #000000;
-    padding: 0rem 1rem;
+    padding: 0.8rem;
+}
+header nav ul a:hover{
+    color: #fff;
+    background-color: #222;
+
 }
 .container{
     margin: auto;

@@ -1,17 +1,26 @@
-@media(width <= 1050px)  {
+@media(width <= 968px)  {
     html{
         font-size: 90%;
     }
-    header ul a{
-        padding: 0rem 0.5rem;
-    }
     .container{
-        width: 95%;
+        width: 85%;
     }
 
 }
 
-@media(width <= 600px) {
+@media(width <= 868px)  {
+    .container{
+        width: 90%;
+    }
+}
+
+@media(width <= 768px)  {
+    .container{
+        width: 95%;
+    }
+}
+
+@media(width <= 650px) {
     html{
         font-size: 80%;
     }
@@ -22,9 +31,6 @@
         flex-wrap: wrap;
     }
 
-    header ul a{
-        padding: 0rem 0.2rem;
-    }
     .apresentacao {
         flex-direction: column;
     }
