@@ -1,4 +1,4 @@
-@media(width <= 768px)  {
+@media(width <= 1050px)  {
     html{
         font-size: 90%;
     }
@@ -12,17 +12,6 @@
 }
 
 @media(width <= 600px) {
-    .projetos div img{
-        max-width: 250px;
-        width: 70vw;
-    }
-    .projetos div p{
-        width: 70vw;
-    }
-}
-
-
-@media(width <= 480px) {
     html{
         font-size: 80%;
     }
@@ -41,6 +30,16 @@
     }
     .apresentacao .texto{
         width: 90%;
+    }
+    .skills div{
+        justify-content: center;
+    }
+    .projetos div img{
+        max-width: 250px;
+        width: 70vw;
+    }
+    .projetos div p{
+        width: 70vw;
     }
 
 }
