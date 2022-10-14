@@ -29,7 +29,7 @@
     .apresentacao {
         flex-direction: column;
     }
-    .apresentacao .texto{
+    .texto{
         width: 90%;
     }
     .skills div{
