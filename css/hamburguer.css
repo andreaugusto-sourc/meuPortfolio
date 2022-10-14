@@ -47,7 +47,7 @@
 }
 
 
-@media(width <= 620px)  {
+@media(width <= 600px)  {
 
     #navMenu{
         display: block;
