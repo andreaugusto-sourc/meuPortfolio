@@ -45,8 +45,11 @@
 
 }
 
-@media(width <= 320px) {
+@media(width <= 300px) {
     html{
         font-size: 70%;
+    }
+    .apresentacao img {
+        min-width: 200px;
     }
 }
