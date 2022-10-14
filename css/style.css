@@ -44,7 +44,7 @@ h1{
 /* PARTE DE APRESENTACAO */
 .apresentacao{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     
 }
@@ -60,8 +60,8 @@ h1{
 }
 .apresentacao .texto{
     text-align: center;
-    width: 40vw;
-    max-width: 600px;
+    width: 50vw;
+    
 }
 /* PARTE DE EXIBICAO DE SKILLS*/
 .skills{

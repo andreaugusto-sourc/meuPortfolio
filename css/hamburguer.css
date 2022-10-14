@@ -15,11 +15,11 @@
     transition: all 0.25s ease-in-out;
 }
 /* botao para baixar curriculo */
-.apresentacao button{
+.apresentacao a{
+    text-decoration: none;
+    color: #000000;
     text-transform: uppercase;
-    background-color: transparent;
     border: 2px solid #222;
-    box-sizing: border-box;
     cursor: pointer;
     border-radius: 0.6em;
     font-family: 'Montserrat', sans-serif;
@@ -27,15 +27,17 @@
     font-weight: bolder;
     line-height: 1;
     padding: 1.2em 2.8em;
-    margin: 20px;
     background-image: -webkit-linear-gradient(45deg, #222 50%, transparent 50%);
     background-image: linear-gradient(45deg, #222 50%, transparent 50%);
     background-position: 100%;
     background-size: 400%;
     -webkit-transition: background 300ms ease-in-out;
     transition: background 300ms ease-in-out;
+    margin: 20px auto;
+  
 }
-.apresentacao  button:hover,button:focus{
+
+.apresentacao  a:hover,a:focus{
     color: #fff;
     outline: 0;
     background-position: 0;
