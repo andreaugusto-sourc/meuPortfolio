@@ -2,16 +2,16 @@
 body{
     background-color: #F4F3EE;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 header{
     font-family: 'Roboto', sans-serif;
-    padding: 0.5rem 0rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 header nav{
-    margin: auto 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +25,12 @@ header nav  ul{
 header nav ul a{
     text-decoration: none;
     color: #000000;
-    padding: 0rem 1rem;
+    padding: 0.8rem;
+}
+header nav ul a:hover{
+    color: #fff;
+    background-color: #222;
+
 }
 .container{
     margin: auto;
@@ -41,7 +46,7 @@ h1{
 /* PARTE DE APRESENTACAO */
 .apresentacao{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     
 }
@@ -55,10 +60,10 @@ h1{
     min-width: 250px;
     max-width: 300px;
 }
-.apresentacao .texto{
+.texto{
     text-align: center;
-    width: 40vw;
-    max-width: 600px;
+    width: 50vw;
+    
 }
 /* PARTE DE EXIBICAO DE SKILLS*/
 .skills{
@@ -99,5 +104,36 @@ h1{
     text-align: center;
    
 }
+/* FOOTER */
+footer{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    color: darkgray;
+}
+footer h3{
+    color: #fff;
+    opacity: 80%;
+}
+footer ul{
+    width: 40%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+footer ul a{
+    font-size: 2rem;
+    list-style: none;
+    color: #fff;
+}
 
+footer div{
+    padding: 1rem 0rem;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+}
 
