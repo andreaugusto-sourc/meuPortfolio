@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 header{
     padding: 0.5rem 0;
@@ -38,6 +39,9 @@ header nav ul a:hover{
     width: 80%;
     max-width: 1224px;
     
+}
+.apresentacao img, .projetos img{
+    filter: drop-shadow(0 0 3px #000);
 }
 h1{
     width: 100%;
