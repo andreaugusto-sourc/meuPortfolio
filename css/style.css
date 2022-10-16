@@ -4,9 +4,29 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
+.container{
+    margin: auto;
+    width: 80%;
+    max-width: 1224px;
+    padding: 4rem 0rem;
+    
+}
+img:not(.skills img, header img){
+    filter: drop-shadow(0 0 2px #000000);
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+/* HEADER */
 header{
-    padding: 0.5rem 0;
+    margin-left: 0.8rem;
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: space-between;
@@ -18,33 +38,27 @@ header nav{
     align-items: center;
     list-style: none;
 }
-header nav  ul{
+header nav ul{
+    font-weight: bold;
     display: flex;
     align-items: center;
     list-style: none;
 }
 header nav ul a{
+    font-size: 1rem;
     text-decoration: none;
-    color: #000000;
-    padding: 0.8rem;
+    color: #201F1B;
+    padding: 1rem;
 }
 header nav ul a:hover{
     color: #fff;
-    background-color: #222;
+    background-color: #201F1B;
 
 }
-.container{
-    margin: auto;
-    width: 80%;
-    max-width: 1224px;
-    
-}
-h1{
-    width: 100%;
-    text-align: center;
-    font-size: 3rem;
-}
 /* PARTE DE APRESENTACAO */
+#caixa-apresentacao{
+    background-color: #CCC6BA;
+}
 .apresentacao{
     display: flex;
     justify-content: space-between;
@@ -54,10 +68,11 @@ h1{
 .apresentacao div{
     display: flex;
     flex-direction: column;
+    align-items: center;
     
 }
 .apresentacao img{
-    width: 20vw;
+    width: 30vw;
     min-width: 250px;
     max-width: 300px;
 }
@@ -65,6 +80,12 @@ h1{
     text-align: center;
     width: 50vw;
     
+}
+.texto article{
+    font-size: 20px;
+    color: #3F3C37;
+    word-spacing: 7px;
+    font-weight: bolder;
 }
 /* PARTE DE EXIBICAO DE SKILLS*/
 .skills{
@@ -112,17 +133,17 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #222;
+    background-color: #201F1B;
     color: darkgray;
 }
 footer h3{
     color: #fff;
-    opacity: 80%;
+    opacity: 90%;
 }
 footer ul{
     width: 40%;
     min-width: 250px;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     display: flex;
     justify-content: space-around;
 }
@@ -130,12 +151,16 @@ footer ul a{
     font-size: 2rem;
     list-style: none;
     color: #fff;
+    padding: 0.5rem;
 }
-
+footer ul a:hover{
+    color: #201F1B;
+    background-color: #fff;
+}
 footer div{
     padding: 1rem 0rem;
     width: 100%;
-    background-color: #000000;
+    background-color: #181817;
     text-align: center;
 }
 

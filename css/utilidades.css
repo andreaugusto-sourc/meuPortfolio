@@ -42,35 +42,58 @@
     outline: 0;
     background-position: 0;
 }
-
-
-@media(width <= 500px)  {
+/* animacao do article do .texto
+.texto article{
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2.5s steps(13) infinite alternate,
+      blink 1000ms steps(13) infinite normal;
+    border-right: 5px solid black;
+}
+    @keyframes typewriter {
+        from {
+          width: 0%;
+        }
+        to {
+          width: 50%;
+        }
+      }
+      @keyframes blink {
+        from {
+          border-color: black;
+        }
+        to {
+          border-color: transparent;
+        }
+      }
+*/
+@media(width <= 420px)  {
 
     #navMenu{
         display: block;
     }
     #hamburguer ul{
         display: none;
-    }
-    #hamburguer.active{
-       flex-direction: column;  
-    }
-
-    #hamburguer.active ul {
         background-color: #222;
         width: 100vw;
+        text-align: center;
+        z-index: 10;
+    }    
+
+    #hamburguer.active ul {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 55px;
+        top: 50px;
         right: 0;
-        z-index: 10;
 
     }
     #hamburguer.active ul a{
         color: #fff;
         text-align: center;
         padding: 2rem 0rem;
+        font-size: 1.5rem;
+        font-weight: 500;
     }
 
     #navMenu.active span:nth-child(2) {

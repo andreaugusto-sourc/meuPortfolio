@@ -1,7 +1,4 @@
 @media(width <= 1000px)  {
-    html{
-        font-size: 90%;
-    }
     .container{
         width: 85%;
     }
@@ -10,23 +7,30 @@
 
 @media(width <= 800px)  {
     .container{
-        width: 95%;
+        width: 90%;
+    }
+    h1{
+        font-size: 2.8rem;
     }
 }
 
 
-@media(width <= 650px) {
+@media(width <= 670px) {
     html{
-        font-size: 80%;
+        font-size: 90%;
     }
     .container{
         width: 95%;
+    }
+    header{
+        margin: 0.5rem;
     }
     .wrap{
         flex-wrap: wrap;
     }
 
     .apresentacao {
+        padding: 0;
         flex-direction: column;
     }
     .texto{
@@ -45,11 +49,22 @@
 
 }
 
-@media(width <= 300px) {
+@media(width <= 350px) {
     html{
-        font-size: 70%;
+        font-size: 85%;
     }
     .apresentacao img {
         min-width: 200px;
+    }
+    footer ul{
+        min-width: 200px;
+    }
+}
+@media(width < 300px) {
+    html{
+        font-size: 80%;
+    }
+    h1{
+        font-size: 2.5rem;
     }
 }
