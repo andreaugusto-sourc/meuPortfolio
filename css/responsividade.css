@@ -59,6 +59,10 @@
     footer ul{
         min-width: 200px;
     }
+    footer div{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 @media(width < 300px) {
     html{
