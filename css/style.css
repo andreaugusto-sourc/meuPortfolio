@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 body{
     background-color: #F4F3EE;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    font-family: 'Noto Serif', serif;
 }
 .container{
     margin: auto;
@@ -57,7 +59,7 @@ header nav ul a:hover{
 }
 /* PARTE DE APRESENTACAO */
 #caixa-apresentacao{
-    background-color: #CCC6BA;
+    background-color: #d0d9e4;
 }
 .apresentacao{
     display: flex;
@@ -83,7 +85,7 @@ header nav ul a:hover{
 }
 .texto article{
     font-size: 20px;
-    color: #3F3C37;
+    color: #131E2F;
     word-spacing: 7px;
     font-weight: bolder;
 }
