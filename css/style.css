@@ -59,7 +59,7 @@ header nav ul a:hover{
 }
 /* PARTE DE APRESENTACAO */
 #caixa-apresentacao{
-    background-color: #d0d9e4;
+    background-color: #d0d9e4d3;
 }
 .apresentacao{
     display: flex;
