@@ -6,35 +6,25 @@
 }
 
 @media(width <= 800px)  {
+    html{
+        font-size: 95%;
+    }
     .container{
         width: 90%;
     }
     h1{
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
 }
-
-
-@media(width <= 670px) {
+@media(width <= 680px) {
     html{
         font-size: 90%;
     }
     .container{
-        padding: 0rem;
         width: 95%;
-    }
-    header{
-        margin: 0.8rem;
     }
     .wrap{
         flex-wrap: wrap;
-    }
-
-    .apresentacao {
-        flex-direction: column;
-    }
-    .texto{
-        width: 90%;
     }
     .skills div{
         justify-content: center;
@@ -46,15 +36,28 @@
     .projetos div p{
         width: 70vw;
     }
+}
+
+@media(width <= 550px) {
+    .container{
+        width: 100%;
+        padding: 0rem;
+    }
+    .apresentacao {
+        flex-direction: column;
+    }
+    .texto{
+        width: 90%;
+    }
+    header{
+        margin: 0rem 0.5rem;
+    }
 
 }
 
-@media(width <= 350px) {
+@media(width <= 400px) {
     html{
         font-size: 85%;
-    }
-    .apresentacao img {
-        min-width: 200px;
     }
     footer ul{
         min-width: 200px;
@@ -63,12 +66,14 @@
         display: flex;
         flex-direction: column-reverse;
     }
+
 }
-@media(width < 310px) {
+@media(width < 300px) {
     html{
         font-size: 80%;
     }
-    h1{
-        font-size: 2.5rem;
+    .apresentacao img {
+        min-width: 200px;
     }
+
 }
