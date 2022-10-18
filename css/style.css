@@ -10,9 +10,9 @@ body{
 }
 .container{
     margin: auto;
-    width: 80%;
+    width: 75%;
     max-width: 1224px;
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
     
 }
 img:not(.skills img, header img){
@@ -33,6 +33,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+header img{
+    object-fit: cover;
+    min-width: 80px;
+    width: 7vw;
 }
 header nav{
     display: flex;
@@ -59,7 +64,8 @@ header nav ul a:hover{
 }
 /* PARTE DE APRESENTACAO */
 #caixa-apresentacao{
-    background-color: #d0d9e4d3;
+    filter: drop-shadow(0 0 1px #000000);
+    background-color: #d6dbe4
 }
 .apresentacao{
     display: flex;
