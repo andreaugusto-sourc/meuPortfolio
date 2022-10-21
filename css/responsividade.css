@@ -15,6 +15,13 @@
     h1{
         font-size: 2.5rem;
     }
+    .projetos div img{
+        max-width: 250px;
+        width: 70vw;
+    }
+    .projetos div p{
+        width: 70vw;
+    }
 }
 @media(width <= 680px) {
     html{
@@ -28,13 +35,6 @@
     }
     .skills div{
         justify-content: center;
-    }
-    .projetos div img{
-        max-width: 250px;
-        width: 70vw;
-    }
-    .projetos div p{
-        width: 70vw;
     }
 }
 

@@ -35,7 +35,7 @@ header{
     align-items: center;
 }
 header img{
-    object-fit: cover;
+    object-fit: contain;
     min-width: 80px;
     width: 7vw;
 }
@@ -126,6 +126,7 @@ header nav ul a:hover{
     align-items: center;
 }
 .projetos div img{
+    object-fit: contain;
     width: 20vw;
     max-width: 350px;
 }
