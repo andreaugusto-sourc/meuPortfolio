@@ -31,6 +31,9 @@
     html{
         font-size: 90%;
     }
+    h1{
+        font-size: 2rem;
+    }
     .container{
         width: 95%;
     }
@@ -39,6 +42,7 @@
     }
     .skills div p{
         width: 100%;
+        margin-right: 20px;
     }
     .skills div{
         justify-content: center;
@@ -63,8 +67,8 @@
 }
 
 @media(width <= 400px) {
-    html{
-        font-size: 85%;
+    h1{
+        font-size: 1.8rem;
     }
     footer ul{
         min-width: 200px;
@@ -81,6 +85,9 @@
     }
     .apresentacao img {
         min-width: 200px;
+    }
+    .skills div img{
+        min-width: 50px;
     }
 
 }
