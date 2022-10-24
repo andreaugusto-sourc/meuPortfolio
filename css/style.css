@@ -15,9 +15,6 @@ body{
     padding: 1rem 0rem;
     
 }
-img:not(.skills img, header img){
-    filter: drop-shadow(0 0 2px #000000);
-}
 h1{
     width: 100%;
     text-align: center;
@@ -25,6 +22,7 @@ h1{
 }
 p{
     font-family: 'Roboto', sans-serif;
+
 }
 /* HEADER */
 header{
@@ -81,6 +79,7 @@ header nav ul a:hover{
     
 }
 .apresentacao img{
+    filter: drop-shadow(0 0 1px #000000);
     width: 30vw;
     min-width: 250px;
     max-width: 300px;
@@ -103,36 +102,41 @@ header nav ul a:hover{
     align-items: center;
 }
 .skills div{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: start;
 }
 .skills div img{
-    min-width: 60px;
+    max-width: 120px;
+    object-fit: cover;
     margin: 20px;
     width: 7vw;
     border-radius: 50%;
 }
+
 /* PARTE DE PROJETOS */
 .projetos{
     flex-wrap: wrap;
     display: flex;
-    align-items: center;
     justify-content: space-around;
 }
 .projetos div{
+    min-width: 200px;
+    max-width: 360px;
+    width: 20vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .projetos div img{
+    filter: drop-shadow(0 0 4px #000000);
     object-fit: contain;
-    width: 20vw;
-    max-width: 350px;
+    width: 100%;
 }
 .projetos div p{
-    max-width: 350px;
-    width: 20vw;
+    line-height: 1.5rem;
+    width: 100%;
     text-align: center;
    
 }
