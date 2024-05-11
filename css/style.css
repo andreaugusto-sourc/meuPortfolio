@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 body{
-    background-color: #F4F3EE;
+    background-color: #FBFBFB;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -19,6 +19,7 @@ h1{
     width: 100%;
     text-align: center;
     font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
 }
 p{
     font-family: 'Roboto', sans-serif;
@@ -63,7 +64,8 @@ header nav ul a:hover{
 /* PARTE DE APRESENTACAO */
 #caixa-apresentacao{
     filter: drop-shadow(0 0 1px #000000);
-    background-color: #d6dbe4
+    background-color: #222;
+    color: #fff;
 }
 .apresentacao{
     display: flex;
@@ -119,6 +121,7 @@ header nav ul a:hover{
     align-items: center;
 }
 .projetos div img{
+    border-radius: 5px;
     filter: drop-shadow(0 0 4px #000000);
     object-fit: contain;
     width: 100%;
