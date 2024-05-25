@@ -59,6 +59,7 @@
     }
     .texto{
         width: 90%;
+        text-align: justify !important;
     }
     header{
         margin: 0rem 0.5rem;
